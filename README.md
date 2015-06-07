@@ -110,7 +110,7 @@
 
 ### 任务列表
 
-* `<leader>\td` 打开任务列表
+* `<leader>td` 打开任务列表
 * `q`           关闭任务列表
 * 回车          跳到文件相应内容
 
@@ -123,7 +123,7 @@
 
 ### 历史版本
 
-`g` 打开历史版本
+`<leader>g` 打开历史版本
 
 插件 Gundo 提供了历史版本功能。
 
@@ -191,29 +191,11 @@ minibufexpl 插件带来了更好的缓冲区管理功能。
 
 `<leader>a` 显示搜索命令
 
-在 ~/.vimrc 中加入以下内容：
+插件 ack 提供了强大的查询功能。在 ~/.vimrc 中加入以下内容：
 
     nmap <leader>a <Esc>:Ack!
 
 末尾的感叹号表示只显示命令，不立即执行。
-
-
-### 整合 Git
-
-We installed 2 plugins, git.vim and fugitive, that give us all the integration we need. Git.vim will provide us syntax highlighting for git configuration files; fugitive provides a great interface for interacting with git including getting diffs, status updates, committing, and moving files.
-
-Fugitive also allows you to view what branch you are working in directly from vim. Add this to your statusline in ~/.vimrc:
-
-%{fugitive#statusline()}
-
-The big commands you need to know:
-
-    Gblame: This allows you to view a line by line comparison of who the last person to touch that line of code is.
-    Gwrite: This will stage your file for commit, basically doing git add <filename>
-    Gread: This will basically run a git checkout <filename>
-    Gcommit: This will just run git commit. Since its in a vim buffer, you can use keyword completion (Ctrl-N), like test_all<Ctrl-N> to find the method name in your buffer and complete it for the commit message. You can also use + and - on the filenames in the message to stage/unstage them for the commit.
-
-http://i.imgur.com/NuRRj.png
 
 
 Test Integration

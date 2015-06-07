@@ -29,6 +29,7 @@ let g:pyflakes_use_quickfix = 0
 " by plugin python-mode
 " turn on python-mode
 let g:pymode = 1
+
 " pep8 autofix
 map <leader>8 :PymodeLintAuto<CR>
 
@@ -43,7 +44,11 @@ map <leader>n :NERDTreeToggle<CR>
 let g:pymode_run_bind = '<leader>r'
 let g:pymode_rope_goto_definition_bind = '<leader>j'
 
+" search
 nmap <leader>a <Esc>:Ack!
+
+" auto reload vimrc
+" autocmd BufWritePost .vimrc source %
 
 set lines=40 columns=85
 set autoindent
