@@ -23,7 +23,7 @@
 * `<leader>n` 打开文件树
 * `<leader>a` 显示搜索命令
 * `<leader>r` 运行 python 程序
-* '<leader>j' 转到定义位置
+* `<leader>j` 转到定义位置
 
 ## 初始化
 
