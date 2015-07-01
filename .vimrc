@@ -34,7 +34,7 @@ let g:pymode = 1
 map <leader>8 :PymodeLintAuto<CR>
 
 " python doc
-let g:pymode_doc_bind = 'k'
+let g:pymode_doc_bind = '<leader>k'
 
 
 " tab complete
