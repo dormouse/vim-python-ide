@@ -57,7 +57,6 @@
     git submodule add https://github.com/mitechie/pyflakes-pathogen.git
     git submodule add https://github.com/mileszs/ack.vim.git bundle/ack
     git submodule add https://github.com/sjl/gundo.vim.git bundle/gundo
-    git submodule add https://github.com/fs111/pydoc.vim.git bundle/pydoc
     git submodule add https://github.com/vim-scripts/TaskList.vim.git bundle/tasklist
     git submodule add https://github.com/vim-scripts/The-NERD-tree.git bundle/nerdtree
     git submodule add https://github.com/klen/python-mode.git bundle/pythonmode

@@ -33,6 +33,10 @@ let g:pymode = 1
 " pep8 autofix
 map <leader>8 :PymodeLintAuto<CR>
 
+" python doc
+let g:pymode_doc_bind = 'k'
+
+
 " tab complete
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
