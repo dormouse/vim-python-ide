@@ -15,7 +15,7 @@
 * `<leader>td` 打开任务列表
 * `<leader>g` 打开历史版本
 * `<leader>8` 进行 Pep8 自动修复
-* `<leader>K` 查看文档
+* `<leader>k` 查看文档
 * `:e <filename>` 打开新的文件
 * `:b<number>`    切换到第 <number> 个缓冲区
 * `:bn`           切换到下一个缓冲区
